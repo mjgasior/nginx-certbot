@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(cracker.red www.cracker.red)
+domains="cracker.red"
 rsa_key_size=4096
 data_path="./data/certbot"
 email="michaljgasior@gmail.com" # Adding a valid address is strongly recommended
